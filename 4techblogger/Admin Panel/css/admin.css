@@ -1,0 +1,244 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: calibri;
+}
+
+.container
+{
+    padding-top: 100px;
+    text-align: center;
+}
+@media (max-width:768px)
+{
+    .container
+    {
+        padding: 20px;
+    }
+}
+
+h1{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+@media (max-width:768px)
+{
+    h1
+    {
+        font-size: 18px;
+    }
+}
+
+.container .btn
+{
+    width: 50%;
+    border-radius: 5px;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.btn:hover
+{
+    background-color: #008CBA;
+    color: white;
+    border-color: #008CBA;
+    transition-duration: .6s;
+    transition-property: all ease-in-out;
+}
+
+
+
+
+
+
+form
+{
+    background: rgba(236, 236, 236, 0.98);
+    padding: 70px 100px 100px 100px;
+    border-radius: 5px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, .25);
+}
+
+@media (max-width:768px)
+{
+    form
+    {
+        padding: 10px;
+        box-shadow: 0 0px 5px rgba(0, 0, 0, .50);
+    }
+}
+
+
+.form-group
+input[type=email],
+input[type=password]
+{
+    padding-left: 40px;
+}
+
+.form-group{
+    position: relative;
+}
+
+.form-group i
+{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    padding: 0px 10px;
+    color: #aaa;
+    font-size: 19px;
+}
+
+.form-group
+input[type=email]:focus + .glyphicon,
+input[type=password]:focus + .glyphicon{
+    color: #008CBA; 
+}
+
+.glyphicon
+{
+   color: #008CBA; 
+}
+
+@media (max-width:768px)
+{
+    .glyphicon
+    {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width:768px){
+    .smallscr{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .largscr{
+        display: none;
+    }
+}
+
+/*---- for AdminIndexPage.php---*/
+
+/*-- left sidebar css -----*/
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+     cursor: pointer;
+    }
+    .navbar button{
+        background: #d3d1d1;
+    }
+     li{
+      margin-bottom: 0;
+      border-radius: 0;
+      border-spacing: 1px;
+      cursor: pointer;
+    }
+    li:hover{
+      margin-bottom: 0;
+      border-radius: 0;
+      border-spacing: 1px;
+      cursor: pointer;
+      background: #4d4d4d;
+    }
+
+
+
+
+
+
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    #div22{
+        background:#fbfbfe;
+        padding:5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        overflow-y: auto;
+     }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	@media screen and (max-width: 767px) {
+      .sidenav p{
+			display:inline; margin:0 20px;
+		}
+    }
+	@media screen and (max-width: 767px) {
+      .smAds {
+		display:none;
+      }
+    }
+
+
+
+
+	input[type=text] {
+    width: 130px;
+    border-radius: 10px; 
+    padding: 6px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
